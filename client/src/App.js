@@ -11,7 +11,6 @@ import Header from "./components/Header";
 import Product from "./components/Product";
 import Home from "./Home";
 import Cart from "./pages/Cart";
-import Checkout from "./pages/Checkout";
 import Login from "./pages/Login";
 
 const Layout = () => {
@@ -46,10 +45,6 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login />,
-      },
-      {
-        path: "/checkout",
-        element: <Checkout />,
       },
     ],
   },

@@ -16,9 +16,11 @@ const Header = () => {
         </Link>
         <div className="flex items-center gap-8">
           <ul className="flex item-center gap-8">
-            <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">
-              Home
-            </li>
+            <Link to="/">
+              <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">
+                Home
+              </li>
+            </Link>
             <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">
               Pages
             </li>
